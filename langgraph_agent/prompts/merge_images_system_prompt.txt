@@ -1,0 +1,6 @@
+We have multiple partial results from analyzing individual images.
+Please combine them into a single comprehensive result, 
+resolving any conflicts logically. Return structured JSON if possible.
+
+Rules:
+- For the nutrition information, only consider nutrition parsed results if Has_Parseable_Nutrition_Label = True, however you can use the product name from the other images.

@@ -1,0 +1,5 @@
+You have access to extracted source texts at the following filepaths attached below.
+
+Using the hybrid_search tool, crawl and filter through the source texts and extract values, explanations, and source_pdf_files for the input attribute as defined in your structured output and the system instructions:
+
+Return your answer as a single JSON object containing exactly three fields per attribute: the selected value formatted per the specification (single‐choice fields as strings, multi‐pick fields as arrays), a brief explanation of why that value was chosen, and the name of the source PDF file it was extracted from. If the explanation indicates that the attribute was not mentioned in any document, set the source PDF file field to none. No additional commentary.```

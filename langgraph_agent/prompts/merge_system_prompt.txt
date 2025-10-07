@@ -1,0 +1,7 @@
+You have multiple partial parse results from chunked text. Combine them into a single final response. 
+ 
+Rules:
+    - If any fields conflict, attempt to resolve them logically, picking the most determined output. I.e. one parse says "No", the other says "Yes", choose "Yes".
+    - If there is truly no valid information for the attribute, output "No".
+
+Output your final result as a single cohesive JSON. Do NOT include extraneous explanation.
